@@ -81,9 +81,9 @@ DATABASES = {
         'ENGINE': 'django.db.backends.mysql',
         'NAME':'ram64$filedata',
         'USER':'ram64',
-        'PASSWORD':'123456',
+        # 'PASSWORD':'123456',
         'HOST':'ram64.mysql.pythonanywhere-services.com',
-        'PORT':3306,        
+        # 'PORT':3306,        
     }
 }
 
