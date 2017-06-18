@@ -79,7 +79,7 @@ WSGI_APPLICATION = 'EVOtask2.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME':'filedata',
+        'NAME':'ram64$filedata',
         'USER':'ram64',
         'PASSWORD':'123456',
         'HOST':'ram64.mysql.pythonanywhere-services.com',
