@@ -78,13 +78,12 @@ WSGI_APPLICATION = 'EVOtask2.wsgi.application'
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'sql11180897',
-        'USER': 'sql11180897',
-        'PASSWORD': 'FfFvulF63y',
-        # 'HOST': 'ram64.mysql.pythonanywhere-services.com',
-        'HOST': 'sql11.freemysqlhosting.net',
-        # 'PORT':3306,        
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd6mv7m4fp8bfk0',
+        'USER': 'ikzdxedwffnnom',
+        'PASSWORD': '2594ca0aa645b68fd5c5f8b6d912f75cb6a8b87d1ca28f0ec7c3bea51fa14b02',
+        'HOST': 'ec2-176-34-113-15.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432',
     }
 }
 
