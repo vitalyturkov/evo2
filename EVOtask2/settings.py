@@ -79,10 +79,11 @@ WSGI_APPLICATION = 'EVOtask2.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'ram64$hashes',
-        # 'USER': 'ram64',
-        # 'PASSWORD': 'qwerty',
-        'HOST': 'ram64.mysql.pythonanywhere-services.com',
+        'NAME': 'sql11180897',
+        'USER': 'sql11180897',
+        'PASSWORD': 'FfFvulF63y',
+        # 'HOST': 'ram64.mysql.pythonanywhere-services.com',
+        'HOST': 'sql11.freemysqlhosting.net',
         # 'PORT':3306,        
     }
 }
